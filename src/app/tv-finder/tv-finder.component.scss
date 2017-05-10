@@ -1,0 +1,17 @@
+%margin {
+  margin: auto;
+}
+
+.tv-form-input{
+  width: 96%;
+  @extend %margin;
+}
+
+.tv-list-input{
+  @extend %margin;
+}
+
+.title {
+  float: right;
+  margin-right: .5rem;
+}
