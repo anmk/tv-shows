@@ -1,0 +1,24 @@
+@import "~styles.scss";
+
+:host(){
+  max-width: $big-images-width;
+  min-width: $small-images-width;
+}
+
+.card-back-increase {
+  min-height: $small-images-width;
+}
+
+.card-back-decrease {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card-title {
+  font-family: $secondary-font;
+  color: $main-color;
+}
+
+.outside-images {
+  margin: 10px;
+}

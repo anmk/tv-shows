@@ -1,0 +1,6 @@
+<div class="outside-images">
+  <h5 class="card-title">{{tv.name}}</h5>
+  <div [ngStyle] = "{'background-image': 'url(' + blancUrl + ')'}" class="card-back-decrease" role="img" aria-label="Tv show">
+    <img class="card-img-top img-fluid card-back-increase" [src]="tv.image?.original" alt="{{tv.name}}" title="{{tv.name}}">
+  </div>
+</div>

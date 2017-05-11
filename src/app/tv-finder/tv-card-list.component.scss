@@ -1,0 +1,29 @@
+@import "~styles.scss";
+
+%small-size {
+  width: $small-images-width;
+  height: $small-images-height; 
+}
+
+:host():hover .card-img-overlay {
+  top: 100%;
+}
+
+.card-img-overlay{
+  background-color: $overlay-color;
+  top: 70%;
+  color: $very-bright-color;
+  font-size: 1rem;
+  transition: .2s top ease-out;
+}
+
+.card-back-increase{
+  @extend %small-size;
+  background-size: cover;
+}
+
+.card-back-decrease {
+  @extend %small-size;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
