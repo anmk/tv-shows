@@ -1,0 +1,19 @@
+ @import "~styles.scss";
+
+.flex-tv-list {
+  display: flex;
+  flex-flow: row wrap; 
+  @include mobile {
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  @include desktop {
+    margin: 1rem 0 4rem 0;
+  }
+}
+
+.outside-images{
+  margin: 0 .5rem 1rem .5rem;
+  overflow: hidden;
+}

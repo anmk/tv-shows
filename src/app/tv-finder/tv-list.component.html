@@ -1,0 +1,5 @@
+<div class="flex-tv-list">
+  <tv-card-list [tv] = "tv" class="card outside-images" 
+  [routerLink] = "['details', tv.show.id]" 
+  *ngFor="let tv of tvs | async"></tv-card-list>
+</div>
