@@ -1,0 +1,22 @@
+<header class="row mt-2">
+  <div class="shows-main-list">
+    <h1 class="display-5 title">Show lists</h1>
+  </div>
+</header>
+
+<div class="row mt-2">
+
+  <div class="col-sm-12 col-md-12 col-lg-6 show-card">
+    <show-card>
+      <router-outlet></router-outlet>
+    </show-card>
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-6 show-lists">
+    <show-list></show-list>
+    <div class="form-group">
+      <button type="button" class="btn btn-outline-success float-right" [routerLink]="['new']" aria-label="New showlist button">New showlist</button>
+    </div>
+  </div>
+
+</div>

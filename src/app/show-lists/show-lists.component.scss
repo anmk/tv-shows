@@ -1,0 +1,21 @@
+.shows-main-list{
+  width: 98%;
+  padding-right: 10px;
+}
+
+.bottom-list {
+  margin-bottom: 5rem;
+}
+
+.show-card{
+  @extend .bottom-list;
+}
+
+.show-lists{
+  @extend .bottom-list;
+}
+
+.title {
+  float: right;
+  margin-right: .5rem;
+}
