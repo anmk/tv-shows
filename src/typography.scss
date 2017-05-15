@@ -1,0 +1,36 @@
+/* Typography ========================================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size:  1.2rem;
+  line-height: 1.6rem;
+}
+
+h5, p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
