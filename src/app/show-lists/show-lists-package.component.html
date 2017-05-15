@@ -1,0 +1,21 @@
+<table class="table table-striped">
+  <thead class="list-param">
+    <tr class="list-param">
+      <th class="element-left-list">No.</th>
+      <th>Name</th>
+      <th>Shows</th>
+      <th>Fav.</th>
+    </tr>
+  </thead>
+  <tbody class="param-list">
+    <tr class="param-list" *ngFor = "let showlist of showlists; let i = index"
+    [routerLink] = "[showlist.id]" aria-label="List selection">
+      <td class="element-left-list"> {{ i + 1+'.' }} </td>
+      <td>{{ showlist.name }}</td>
+      <td>{{ showlist.movies?.length }}</td>
+      <td>
+        <label><input type="checkbox" [(ngModel)]="showlist.favourite" disabled></label>
+      </td>
+    </tr>
+  </tbody>
+</table>
