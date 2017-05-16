@@ -1,0 +1,14 @@
+@import "~styles.scss";
+
+input.ng-dirty.ng-invalid, 
+input.ng-touched.ng-invalid,
+textarea.ng-dirty.ng-invalid, 
+textarea.ng-touched.ng-invalid {
+  border: 1px solid $lighten-warming-color;
+}
+.warning-form {
+  color: $lighten-warming-color;
+}
+.correct-form {
+  color: $lighten-correct-color;
+}

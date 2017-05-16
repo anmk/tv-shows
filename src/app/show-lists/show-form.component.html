@@ -1,0 +1,33 @@
+<div *ngIf = "showlist">
+  <form #formReference="ngForm" novalidate="true" (ngSubmit)="save(formReference.valid, showlist)">
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" #showlistNameReference = "ngModel" required minlength="3" required maxlength="25" [(ngModel)]="showlist.name" name="name" class="form-control">
+      <div class="has-danger" *ngIf="showlistNameReference.touched || showlistNameReference.dirty || formReference.submitted">
+        <div class="form-control-feedback" *ngIf="showlistNameReference.errors?.required"><p>This field is required</p></div>
+        <div class="form-control-feedback" *ngIf="showlistNameReference.errors?.minlength">
+          <p>Type at least {{showlistNameReference.errors.minlength.requiredLength}} characters</p>
+        </div>
+      </div>           
+    </div>
+    <div class="form-group">
+      <label>Description:</label>
+      <textarea #showlistDescriptionReference = "ngModel" [(ngModel)]="showlist.description" name="description" required minlength="3" required maxlength="250" class="form-control"></textarea>
+        <div class="has-danger" *ngIf="showlistDescriptionReference.touched || showlistDescriptionReference.dirty || formReference.submitted">
+        <div class="form-control-feedback" *ngIf="showlistDescriptionReference.errors?.required"><p>This field is required</p></div>
+          <div class="form-control-feedback" *ngIf="showlistDescriptionReference.errors?.minlength">
+            <p>Type at least {{showlistDescriptionReference.errors.minlength.requiredLength}} characters</p>
+          </div>
+        </div>   
+    </div>
+    <div class="form-group">
+      <label><input type="checkbox" [(ngModel)]="showlist.favourite" name="favourite" aria-label="Favourite checkbox"> Favourite</label>
+    </div>
+    <p class="correct-form" *ngIf = "formReference.valid">Form validated correctly</p>
+    <p class="warning-form" *ngIf = "!formReference.valid">Form not validated</p>
+    <div class="form-group">
+      <button type="button" class="btn btn-outline-secondary float-left" (click)="cancel(showlist)" aria-label="Cancel button">Cancel</button>
+      <button type="submit" class="btn btn-outline-success float-right" aria-label="Save button">Save</button>
+    </div>
+  </form>      
+</div>
