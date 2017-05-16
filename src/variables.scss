@@ -1,0 +1,28 @@
+/* Variables ========================================================================== */
+
+/* Main colors */
+$very-bright-color: #fff;
+$overlay-color: rgba(0,0,0,0.7);
+$main-color: #888;
+$very-dark-color: #000;
+$main-background-color: $very-bright-color;
+
+$warning-color: rgba(255,0,0,.8);
+$lighten-warming-color: lighten($warning-color, 20%);
+$darken-warning-color: darken($warning-color, 8%);
+
+$correct-color: rgba(172,182,67,1);
+$lighten-correct-color: lighten($correct-color, 20%);
+$darken-correct-color: darken($correct-color, 8%);
+
+/* Sizes */
+$small-images-width: 210px;
+$small-images-height: 295px;
+$big-images-width: 400px;
+$desktop-width: 1200px;
+
+/* Font definitions */
+$primary-font: 'Lato', Helvetica, sans-serif;
+$secondary-font: 'Oswald', Helvetica, sans-serif;
+$main-font-size: 1.25rem;
+$main-line-height: 1.25rem;
