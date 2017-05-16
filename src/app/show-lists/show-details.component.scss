@@ -1,0 +1,34 @@
+.param-detail{
+  margin: 0 4% 0 4%;
+}
+
+.element-detail {
+  display: table;
+}
+
+.left{
+  float: left;
+}
+
+.element-left-detail {
+  width: 8%;
+  @extend .element-detail;
+  @extend .left;
+}
+
+.element-middle-detail {
+  width: 50%;
+  @extend .element-detail;
+  @extend .left;
+}
+
+.element-right-detail {
+  width: 42%;
+  @extend .element-detail;
+}
+
+.item-list-detail {
+  font-size: 65%;
+  height: 75px;
+  margin-left: 2%;
+}

@@ -1,0 +1,45 @@
+<section>
+    <div *ngIf = "!showlist">
+      <h3>Choose showlist</h3>
+    </div>
+    <div  class="" *ngIf = "showlist">
+      <div class="param-detail">
+        <h3 class="card-title">{{ showlist.name }}</h3>
+        <p class="">{{ showlist.description }}</p>
+
+        <div class="row col-xs">
+          <table class="table table-striped">
+            
+            <thead  class="title">
+            </thead>
+
+            <tbody>
+              <td class="element-left-detail">
+                <tr *ngFor = "let i = index of showlist.movies" >
+                  <div class="item-list-detail"> &nbsp;{{ i+1+'.' }}</div>
+                </tr>
+              </td>
+              <td class="element-middle-detail">
+                <tr *ngFor = "let movie of showlist.movies" class="">
+                  <div class="item-list-detail"> {{ movie }} </div>
+                </tr>
+              </td>
+              <td class="element-right-detail">
+                <tr *ngFor = "let outerId of showlist.outerIds" 
+                (click) = "this.router.navigate(['tv', 'details', outerId])">
+                  <div class="item-list-detail"> #{{ outerId }} <span class="float-right" aria-label="See button"> &nbsp; See &nbsp; </span></div>
+                </tr>  
+              </td>
+            </tbody>
+
+          </table>
+        </div>
+
+        <div class="form-group">
+          <button type="button" class="btn btn-outline-danger left" (click)="delete(showlist)" aria-label="Delete button">Delete</button>
+          <button type="button" class="btn btn-outline-success float-right" (click)="edit(showlist)" aria-label="Edit button">Edit</button>
+        </div>
+      
+      </div>
+    </div>
+  </section>
