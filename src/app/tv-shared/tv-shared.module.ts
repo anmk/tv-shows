@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { ShowlistSelectorComponent } from './showlist-selector.component';
-import { TvSharedDetailsComponent } from './tv-shared-details.component';
+import { TvDescriptionComponent } from './tv-description.component';
 
 @NgModule({
   imports: [
@@ -13,12 +13,12 @@ import { TvSharedDetailsComponent } from './tv-shared-details.component';
 
   declarations: [
     ShowlistSelectorComponent,
-    TvSharedDetailsComponent
+    TvDescriptionComponent
   ],
 
   exports: [
     ShowlistSelectorComponent,
-    TvSharedDetailsComponent
+    TvDescriptionComponent
     ]
 })
 
