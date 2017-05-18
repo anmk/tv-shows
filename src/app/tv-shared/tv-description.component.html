@@ -1,0 +1,13 @@
+<div class="card outside-card">
+  <h3 class="card-title text-api">Name: <span class="text-json">{{tv?.name}}</span></h3>
+  <p class="text-api">Premiered: <span class="text-json">{{tv?.premiered}}</span></p>
+  <p class="text-api">Network Name: <span class="text-json">{{tv?.network?.name}}</span></p>
+  <p class="text-api">Web Channel: <span class="text-json">{{tv?.webChannel?.name}}</span></p>
+  <p class="text-api">Schedule: <span class="text-json">{{ tv?.schedule?.days[0] }} {{ tv?.schedule?.time }}</span></p>
+  <h4 class="add-movie" (click)="addToShowlist(tv.name, tv.id)" aria-label="Add to showlist button">Add to showlist</h4>
+  <span class="text-api size">Genres: </span>
+  <span class="text-json size-text-movie" *ngFor = "let genre of tv?.genres">{{genre}}</span>
+  <div class="desc-movie text-api">Description:
+    <div class="text-json" [innerHTML]="tv?.summary"></div>
+  </div>
+</div>

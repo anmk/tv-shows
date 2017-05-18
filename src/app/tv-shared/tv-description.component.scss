@@ -1,0 +1,33 @@
+@import "~styles.scss";
+
+.outside-card {
+  margin: 10px;
+  padding: 10px;
+}
+
+.add-movie{
+  font-family: $secondary-font;
+  color: $darken-correct-color;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.size-text-movie {
+  font-size: 80%;
+}
+
+.desc-movie{
+  margin-top: 15px;
+  @extend .size-text-movie;
+}
+
+.text-api{
+  color:$very-dark-color;
+  font-weight: bold;
+}
+
+.text-json{
+  color: $main-color;
+  font-weight: normal;
+  font-style: italic;
+}
