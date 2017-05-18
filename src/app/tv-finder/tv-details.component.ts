@@ -17,7 +17,7 @@ import { ActivatedRoute } from '@angular/router';
         </div>
       </div>
       <div class="col-lg-7 mt-1">
-        <tv-movie-shared class="card info-space" [tv]="tv"></tv-movie-shared>
+        <tv-description class="card info-space" [tv]="tv"></tv-description>
       </div>
     </div>
   `,
