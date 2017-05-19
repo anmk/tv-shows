@@ -17,14 +17,16 @@ npm run start
 json-server --watch tv_data.json
 ```
 ## Some screenshots of the application
-:iphone: Mobile devices: 
+### :iphone: Mobile devices: 
+
 The most important views on your smartphone.
 ![mobile1](https://cloud.githubusercontent.com/assets/5839775/26264919/e5f2c31e-3cde-11e7-8c28-2f332dde64a2.jpg)
 
 Views on different devices.
 ![mobile2](https://cloud.githubusercontent.com/assets/5839775/26264950/0a0b7692-3cdf-11e7-9df5-80555d66fb09.jpg)
 
-:computer: Desktop:
+### :computer: Desktop:
+
 Searching for TV shows.
 ![empty-lake](https://cloud.githubusercontent.com/assets/5839775/26264419/0f0e83e8-3cdd-11e7-9482-d770487de8b8.jpg)
 
