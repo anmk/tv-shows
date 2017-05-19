@@ -1,0 +1,148 @@
+{
+  "showlists": [
+    {
+      "name": "Bob - science fiction",
+      "movies": [
+        "Dark Matters: Twisted But True",
+        "Star Trek: Discovery",
+        "Stargate Universe",
+        "Person of Interest",
+        "MARS"
+      ],
+      "outerIds": [
+        4961,
+        7480,
+        207,
+        2,
+        17803
+      ],
+      "favourite": true,
+      "description": "I like to watch science fiction films. Please enter your favorite videos to my list.",
+      "id": 1
+    },
+    {
+      "name": "Elizabeth - fairy tales",
+      "movies": [
+        "Fireman Sam",
+        "Star Darlings",
+        "Tom and Jerry Tales",
+        "Transformers: Robots in Disguise"
+      ],
+      "outerIds": [
+        8207,
+        12368,
+        7358,
+        2271
+      ],
+      "favourite": false,
+      "description": "My kids love to watch cartoons",
+      "id": 2
+    },
+    {
+      "name": "Mark",
+      "movies": [
+        "Legends Cup",
+        "The Bourne Identity",
+        "Speed with Guy Martin",
+        "Cosmos",
+        "Football On 5: The Championship"
+      ],
+      "outerIds": [
+        12159,
+        18557,
+        7166,
+        1127,
+        6546
+      ],
+      "favourite": true,
+      "description": "This is my list",
+      "id": 3
+    },
+    {
+      "name": "Ann",
+      "movies": [
+        "Instant Star",
+        "Action",
+        "Ace of Cakes",
+        "River",
+        "Top of the Lake",
+        "Sea Patrol"
+      ],
+      "outerIds": [
+        20982,
+        15046,
+        16371,
+        3592,
+        1050,
+        2641
+      ],
+      "favourite": true,
+      "description": "This is Ann list",
+      "id": 4
+    },
+    {
+      "name": "Robert - comedy",
+      "movies": [
+        "Playa del Sol",
+        "Inside Comedy",
+        "The History of Comedy"
+      ],
+      "outerIds": [
+        15641,
+        3152,
+        18655
+      ],
+      "favourite": false,
+      "description": "My comedies",
+      "id": 5
+    },
+    {
+      "name": "Bob - action films",
+      "movies": [
+        "NCIS: Los Angeles",
+        "The River",
+        "Sea Hunt",
+        "Lois & Clark: The New Adventures of Superman"
+      ],
+      "outerIds": [
+        72,
+        232,
+        3710,
+        1323
+      ],
+      "favourite": true,
+      "description": "I like to watch action films. Please enter your favorite videos to my list.",
+      "id": 6
+    },
+    {
+      "name": "Ann - comedy",
+      "movies": [
+        "Action",
+        "Make You Laugh Out Loud"
+      ],
+      "outerIds": [
+        15046,
+        11811
+      ],
+      "favourite": false,
+      "description": "Light comedies",
+      "id": 7
+    },
+    {
+      "name": "Jack - sport",
+      "movies": [
+        "IndyCar Series",
+        "NHRA Mello Yello Drag Racing Series",
+        "Arena Football"
+      ],
+      "outerIds": [
+        8694,
+        6614,
+        15521
+      ],
+      "favourite": false,
+      "description": "Racing, football and sailing",
+      "id": 8
+    }
+  ]
+}
